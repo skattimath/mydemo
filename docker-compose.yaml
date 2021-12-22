@@ -1,0 +1,9 @@
+version: '2'
+services:
+  tomcat:
+    image: sanjay/tomcat-log
+    volumes:
+      - /mnt/resource/mydemo/container-log:/opt/tomcat/logs
+    ports:
+      - "8080:8080"
+      - "8443:8443"
