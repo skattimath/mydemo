@@ -5,7 +5,7 @@ pipeline {
 	    stage('CheckOut') {
             steps {
                 echo 'Git Code CheckOut Stage'
-		sh 'git clone https://github.com/skattimath/mydemo.git'
+		//sh 'git clone https://github.com/skattimath/mydemo.git'
             }
         }
         stage('Build') {
