@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Dcoker Image Building Stage'
-		pwd
+		sh 'pwd'
 		//sh 'docker build -t sanjay/tomcat8'
             }
         }
