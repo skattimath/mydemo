@@ -3,7 +3,7 @@ services:
   tomcat:
     image: sanjay/tomcat8
     volumes:
-      - /mnt/resource/poc/container-log:/opt/tomcat/logs
+      - /myvolume/container-log:/opt/tomcat/logs
     ports:
       - "8080:8080"
       - "8443:8443"
