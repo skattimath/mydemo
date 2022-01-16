@@ -1,6 +1,5 @@
-version: "3.9"
+version: '2'
 services:
-  privileged: true
   tomcat:
     image: sanjay/tomcat8
     volumes:
