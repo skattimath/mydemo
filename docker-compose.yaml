@@ -1,7 +1,8 @@
-version: '2'
+version: '3.6'
 services:
   tomcat:
     image: sanjay/tomcat8
+    privileged: true
     volumes:
       - /myvolume/container-log:/opt/tomcat/logs
     ports:
