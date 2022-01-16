@@ -17,7 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Container Deployment Stage'
-		sh 'docker-compose up -d'
+		sh '/usr/local/bin/docker-compose up -d'
             }
         }
     }
