@@ -1,6 +1,6 @@
 version: '2'
 services:
-  privileged: true
+  privileged: 'True'
   tomcat:
     image: sanjay/tomcat8
     volumes:
