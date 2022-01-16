@@ -9,11 +9,6 @@ pipeline {
 		sh 'docker build -t sanjay/tomcat8 .'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Code Testing Stage'
-            }
-        }
         stage('Deploy') {
             steps {
                 echo 'Container Deployment Stage'
